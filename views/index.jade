@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1 Stream de twitter
+  div.form-group.has-success.has-feedback
+   input(type="text",id="tweet",class="form-control",maxlength="140")
+   span(class="form-control-feedback" aria-hidden="true",id="cant_caracteres")
+  input(type="button",value="Tweetear",class="btn btn-success",id="btn-twittear")
