@@ -2,10 +2,10 @@ module.exports = function(io){
 	var Twitter = require('twitter');
 	 
 	var client = new Twitter({
-		consumer_key: '0JYoLK4jk3QYdS9NRjRE62OG4',
-	    consumer_secret: 'lKi9tThmmV6j8MD9grDcDTo7MfxWduBLMwmrFgP2bQw4Wt6hTh',
-	    access_token_key: '446566136-uA48gqugyR3c08a8VB8RlJqCC51RkuUOLi87RYXD',
-	    access_token_secret: '2HDI4wicNXx5TlqnjLrp7lTOJ63SmWpeCGBQlgDrPBtqr'
+		consumer_key: 'your consumer_key',
+	    consumer_secret: 'your consumer_secret',
+	    access_token_key: 'your access_token_key',
+	    access_token_secret: 'your access_token_secret'
 
 	});
 	 
